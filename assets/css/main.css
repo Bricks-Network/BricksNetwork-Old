@@ -1928,7 +1928,7 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background-color: rgb(1, 25, 12);
   font-size: 0.9em;
   position: relative;
   width: 26em; }
@@ -1939,7 +1939,7 @@ button,
     position: relative;
     width: 26em; }
     #sidebar > .inner > * {
-      border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+      border-bottom: solid 2px rgba(220, 226, 228, 0.75);
       margin: 0 0 3.5em 0;
       padding: 0 0 3.5em 0; }
       #sidebar > .inner > * > :last-child {
@@ -1949,7 +1949,7 @@ button,
         margin-bottom: 0;
         padding-bottom: 0; }
     #sidebar > .inner > .alt {
-      background-color: #eff1f2;
+      background-color: rgb(5, 42, 78);
       border-bottom: 0;
       margin: -2.22222em 0 4.44444em -2.22222em;
       padding: 2.22222em;
@@ -1960,7 +1960,7 @@ button,
     -webkit-transition: left 0.5s ease;
     -ms-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(13, 18, 171, 0);
     border: 0;
     display: block;
     height: 7.5em;
@@ -2060,7 +2060,7 @@ button,
         font-size: 1.1rem;
         z-index: 1; }
       #sidebar .toggle:after {
-        background: rgba(222, 225, 226, 0.75);
+        background: rgba(5, 112, 148, 0.75);
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
@@ -2208,7 +2208,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
-    color: inherit;
+    color: #eae5e5;
     cursor: pointer;
     display: block;
     font-size: 0.9em;

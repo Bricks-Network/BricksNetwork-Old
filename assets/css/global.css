@@ -19,8 +19,8 @@
 /* Body Styling */
 body {
     font-family: var(--base-font);
-    margin: 190;
-    padding: 40;
+    margin: 0; /* Adjusted to 0 */
+    padding: 0; /* Adjusted to 0 */
     background-color: var(--body-bg-color);
     color: var(--text-color);
 }
@@ -71,15 +71,12 @@ nav ul li {
     margin-right: var(--padding-unit);
     padding-right: var(--padding-unit);
     border-right: var(--border-width) solid var(--link-text-color);
+    transition: background-color 0.3s ease;
 }
 
 nav ul li:last-child {
     margin-right: 0;
     border-right: none;
-}
-
-nav ul li:hover {
-    background-color: var(--nav-hover-bg-color);
 }
 
 /* Footer Styling */
@@ -97,6 +94,22 @@ section {
     background-color: var(--section-bg-color);
     padding: var(--padding-unit);
     margin: var(--padding-unit) 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Responsive Design */

@@ -33,6 +33,3 @@ If you find any issues or have suggestions, please [open an issue](https://githu
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-

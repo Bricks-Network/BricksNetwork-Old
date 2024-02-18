@@ -5,5 +5,4 @@ footer {
     padding: var(--padding-unit);
     text-align: center;
     clear: both;
-    border-top: var(--border-width) solid var(--link-text-color);
 }

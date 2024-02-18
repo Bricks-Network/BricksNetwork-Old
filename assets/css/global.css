@@ -1,19 +1,21 @@
 :root {
-    --primary-bg-color: #333;
-    --text-color: #fff;
-    --heading-text-color: #0b5bbe;
+    --primary-bg-color: #08090A;
+    --text-color: #FFFFFF;
+    --heading-text-color: #2188FF;
     --base-font: 'Arial', sans-serif;
     --padding-unit: 20px;
     --border-width: 0.5px;
-    --link-color: #007bff;
-    --email-color: #28a745; 
+    --link-color: #0077CC;
+    --email-color: #1DB954; 
 
-    --header-bg-color: #232323;
-    --footer-bg-color: #1c1c1c;
+    --header-bg-color: #030405;
+    --footer-bg-color: #030405;
     --link-text-color: var(--text-color);
-    --nav-hover-bg-color: #555;
-    --body-bg-color: #121212;
-    --section-bg-color: #1e1e1e;
+    --nav-hover-bg-color: #050607;
+    --body-bg-color: #010203;
+    --section-bg-color: #18212b69;
+
+    --designer-background: linear-gradient(45deg, #010101, #030303);
 }
 
 /* Body Styling */
@@ -21,7 +23,7 @@ body {
     font-family: var(--base-font);
     margin: 0;
     padding: 0;
-    background-color: var(--body-bg-color);
+    background: var(--designer-background);
     color: var(--text-color);
 }
 
@@ -48,7 +50,7 @@ a[href^="mailto:"] {
 section {
     background-color: var(--section-bg-color);
     padding: var(--padding-unit);
-    margin: var(--padding-unit) 0;
+    margin: 20px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
